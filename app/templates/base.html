@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}La Douceur — кондитерская{% endblock %}</title>
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='img/logo.svg') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <a href="{{ url_for('main.index') }}" class="logo" aria-label="La Douceur — на главную">
+                <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
+                    <circle class="logo__mark-bg" cx="24" cy="24" r="23"/>
+                    <circle class="logo__mark-solid" cx="24" cy="13.4" r="2.6"/>
+                    <path class="logo__mark-line" d="M23.6 11c.3-2.2 1.9-3.7 3.9-4" stroke-width="1.8" stroke-linecap="round"/>
+                    <path class="logo__mark-line" d="M11.5 20.5q3.1-4.6 6.2 0q3.1-4.6 6.2 0q3.1-4.6 6.2 0q3.1-4.6 6.2 0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <rect class="logo__mark-line" x="11.5" y="20.5" width="25" height="15" rx="3" stroke-width="2.2"/>
+                    <path class="logo__mark-line" d="M14.5 28.2h19" stroke-width="2" stroke-linecap="round"/>
+                    <path class="logo__mark-line" d="M10 38.5h28" stroke-width="2.2" stroke-linecap="round"/>
+                </svg>
+                <span class="logo__text">
+                    <span class="logo__name">La Douceur</span>
+                    <span class="logo__tagline">pâtisserie maison</span>
+                </span>
+            </a>
+            <nav class="nav">
+                <a href="#about">О нас</a>
+                <a href="#menu">Витрина</a>
+                <a href="#projects">Проекты</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div>
+                <p class="footer__brand">
+                    <img class="footer__mark" src="{{ url_for('static', filename='img/logo.svg') }}" alt="" width="26" height="26">
+                    La Douceur
+                </p>
+                <p class="footer__muted">Кондитерская ручной работы</p>
+            </div>
+            <div class="footer__muted">
+                <p>г. Минск, ул. Широкая, 1</p>
+                <p><a href="tel:+375297589389">+375 (29) 758-93-89</a></p>
+                <p><a href="https://t.me/vanwei" target="_blank" rel="noopener noreferrer">Telegram: @vanwei</a></p>
+            </div>
+        </div>
+        <p class="footer__copy">© <span id="year"></span> La Douceur</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

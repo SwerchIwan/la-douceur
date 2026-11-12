@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+    <div class="container hero__inner">
+        <p class="hero__badge">Сайт в разработке</p>
+        <h1 class="hero__title">Десерты, которые<br>хочется запомнить</h1>
+        <p class="hero__text">
+            La Douceur — маленькая кондитерская с большим вниманием к деталям.
+            Мы печём торты, эклеры и печенье по домашним рецептам.
+        </p>
+        <a href="#menu" class="btn">Заглянуть в витрину</a>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <div class="container">
+        <h2 class="section__title">О нас</h2>
+        <p class="section__text">
+            Порой для счастья нужно совсем немного. Хорошая погода,
+            улыбка проходящего человека рядом с собой. Или же небольшая сладость
+            и можете быть уверены, что здесь вы это точно найдете.
+        </p>
+    </div>
+</section>
+
+<section class="section section--alt" id="menu">
+    <div class="container">
+        <h2 class="section__title">Скоро в витрине</h2>
+        <div class="cards">
+            <article class="card">
+                <div class="card__icon">🍰</div>
+                <h3 class="card__title">Торты</h3>
+                <p class="card__text">На заказ и на витрину: классика и сезонные вкусы.</p>
+            </article>
+            <article class="card">
+                <div class="card__icon">🥐</div>
+                <h3 class="card__title">Эклеры</h3>
+                <p class="card__text">Нежные заварные пирожные с кремом ручной работы.</p>
+            </article>
+            <article class="card">
+                <div class="card__icon">🍪</div>
+                <h3 class="card__title">Печенье</h3>
+                <p class="card__text">Хрустящее и мягкое — к чаю и в подарок.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="projects">
+    <div class="container">
+        <h2 class="section__title">Наши проекты</h2>
+        <p class="section__text">
+            Совсем скоро здесь появятся фотографии наших заказов и оформлений.
+            А пока — небольшая подсказка, что мы уже умеем.
+        </p>
+        <div class="slider" data-slider>
+            <button class="slider__btn slider__btn--prev" type="button" aria-label="Предыдущий слайд">&#8249;</button>
+            <div class="slider__viewport">
+                <div class="slider__track">
+                    <article class="slide slide--rose">
+                        <div class="slide__icon">🎂</div>
+                        <h3 class="slide__title">Свадебные торты</h3>
+                        <p class="slide__text">Многоярусные торты с ягодными акцентами и ручной росписью.</p>
+                    </article>
+                    <article class="slide slide--sand">
+                        <div class="slide__icon">🧁</div>
+                        <h3 class="slide__title">Детские праздники</h3>
+                        <p class="slide__text">Капкейки, печенье и десертные наборы для маленьких гостей.</p>
+                    </article>
+                    <article class="slide slide--berry">
+                        <div class="slide__icon">🍰</div>
+                        <h3 class="slide__title">Десертные столы</h3>
+                        <p class="slide__text">Оформление корпоративов и семейных событий под ключ.</p>
+                    </article>
+                </div>
+            </div>
+            <button class="slider__btn slider__btn--next" type="button" aria-label="Следующий слайд">&#8250;</button>
+            <div class="slider__dots"></div>
+        </div>
+    </div>
+</section>
+
+<section class="section section--alt" id="contacts">
+    <div class="container">
+        <h2 class="section__title">Контакты</h2>
+        <p class="section__text">
+            Поможем выбрать десерт и оформить заказ — позвоните или напишите в Telegram.
+        </p>
+        <div class="cards cards--contacts">
+            <a class="card contact-card" href="tel:+375297589389">
+                <div class="card__icon">☎️</div>
+                <h3 class="card__title">Телефон</h3>
+                <p class="card__text">+375 (29) 758-93-89</p>
+            </a>
+            <a class="card contact-card" href="https://t.me/vanwei" target="_blank" rel="noopener noreferrer">
+                <div class="card__icon">✈️</div>
+                <h3 class="card__title">Telegram</h3>
+                <p class="card__text">@vanwei</p>
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+  <g fill="none" stroke="#b06e60" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.2">
+    <!-- fruit tart -->
+    <g transform="translate(52 66) rotate(-4 55 42)">
+      <ellipse cx="55" cy="40" rx="44" ry="18"/>
+      <path d="M11 40v8a44 18 0 0 0 88 0v-8"/>
+      <ellipse cx="55" cy="40" rx="34" ry="13"/>
+      <circle cx="42" cy="38" r="5" fill="#b06e60" stroke="none"/>
+      <circle cx="56" cy="34" r="5.5" fill="#b06e60" stroke="none"/>
+      <circle cx="69" cy="39" r="4.5" fill="#b06e60" stroke="none"/>
+      <path d="M59 29c1-3 3-5 6-5M65 26c2 1 3 3 3 5" stroke-width="2"/>
+    </g>
+
+    <!-- eclair -->
+    <g transform="translate(396 58) rotate(6 60 25)">
+      <rect x="4" y="8" width="112" height="34" rx="17"/>
+      <path d="M20 22q7 5 14 0q7 5 14 0q7 5 14 0q7 5 14 0q7 5 14 0"/>
+      <path d="M20 30q7 5 14 0q7 5 14 0q7 5 14 0q7 5 14 0q7 5 14 0" stroke-width="2.2"/>
+    </g>
+
+    <!-- cookie -->
+    <g transform="translate(64 296)">
+      <circle cx="34" cy="34" r="32"/>
+      <path d="M10 44c6 10 16 16 28 16"/>
+      <circle cx="24" cy="22" r="3.4" fill="#b06e60" stroke="none"/>
+      <circle cx="44" cy="18" r="2.8" fill="#b06e60" stroke="none"/>
+      <circle cx="50" cy="38" r="3.6" fill="#b06e60" stroke="none"/>
+      <circle cx="30" cy="44" r="2.6" fill="#b06e60" stroke="none"/>
+      <circle cx="15" cy="34" r="2.2" fill="#b06e60" stroke="none"/>
+    </g>
+
+    <!-- cupcake -->
+    <g transform="translate(468 252) rotate(4 50 55)">
+      <path d="M24 60l7 40q1 4 5 4h28q4 0 5-4l7-40"/>
+      <path d="M37 64l3 36M50 64v38M63 64l-3 36" stroke-width="2"/>
+      <path d="M24 60c0-9 7-16 15-13c-1-9 9-16 16-10c8-4 17 1 17 9c5 0 10 6 8 14z"/>
+      <circle cx="55" cy="30" r="4.5"/>
+      <path d="M55 25.5c.2-3 2-5 4.5-5.5" stroke-width="2.2"/>
+    </g>
+
+    <!-- layer cake -->
+    <g transform="translate(310 468) rotate(-5 55 48)">
+      <path d="M34 30q5.5 -4 11 0q5.5 -4 11 0q5.5 -4 11 0q5.5 -4 11 0"/>
+      <rect x="34" y="30" width="44" height="22" rx="3"/>
+      <circle cx="56" cy="22" r="4.5"/>
+      <path d="M56 17.5c.3-3.5 2.5-5.5 5.5-6" stroke-width="2"/>
+      <path d="M16 52q8 -4.5 16 0q8 -4.5 16 0q8 -4.5 16 0q8 -4.5 16 0q8 -4.5 16 0"/>
+      <rect x="16" y="52" width="80" height="24" rx="3"/>
+      <path d="M20 63h72" stroke-width="2"/>
+      <path d="M12 80h88" stroke-width="2.4"/>
+    </g>
+
+    <!-- berries -->
+    <g transform="translate(180 350)">
+      <circle cx="0" cy="0" r="7.5"/>
+      <circle cx="12" cy="5" r="6.5"/>
+      <circle cx="3" cy="13" r="6"/>
+      <path d="M-2 -8c-1-5 2-9 7-10" stroke-width="2.2"/>
+      <path d="M5 -18c4 0 7 2 8 5c-4 1-7 0-8-5z" stroke-width="2"/>
+    </g>
+
+    <!-- sparkles -->
+    <path d="M210 128c1 4 2 5 6 6c-4 1-5 2-6 6c-1-4-2-5-6-6c4-1 5-2 6-6z" stroke-width="2.2"/>
+    <path d="M556 178c.8 3 1.6 4 4.6 4.6c-3 .8-3.8 1.6-4.6 4.6c-.8-3-1.6-3.8-4.6-4.6c3-.6 3.8-1.6 4.6-4.6z" stroke-width="2"/>
+    <path d="M600 520c1 4 2 5 6 6c-4 1-5 2-6 6c-1-4-2-5-6-6c4-1 5-2 6-6z" stroke-width="2.2"/>
+    <path d="M100 540c.8 3 1.6 4 4.6 4.6c-3 .8-3.8 1.6-4.6 4.6c-.8-3-1.6-3.8-4.6-4.6c3-.6 3.8-1.6 4.6-4.6z" stroke-width="2"/>
+  </g>
+
+  <g fill="#b06e60" opacity="0.28">
+    <circle cx="300" cy="340" r="2"/>
+    <circle cx="170" cy="210" r="1.8"/>
+    <circle cx="524" cy="440" r="2.2"/>
+    <circle cx="250" cy="600" r="1.8"/>
+    <circle cx="474" cy="606" r="2"/>
+    <circle cx="360" cy="104" r="1.6"/>
+    <circle cx="120" cy="430" r="2"/>
+    <circle cx="580" cy="330" r="1.6"/>
+  </g>
+</svg>
