@@ -28,4 +28,4 @@ pip install -r requirements.txt
 python run.py
 ```
 
-Сайт откроется на http://127.0.0.1:5000/.
+Сайт откроется на (заглушка)
